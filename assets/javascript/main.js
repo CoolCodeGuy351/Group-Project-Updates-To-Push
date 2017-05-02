@@ -646,19 +646,23 @@ $(document).ready(function() {
             $('#render-div').append(textBetweenArrows);
             $('#render-div').append(rightArrow);
 
-
+            /*
+            ALMOST THERE
             makeAjax(movieMpaaCounter);
         
             $(".right-arrow").click(function(){
             makeAjax(counterArray++);
+            //renderVideo();//
             });
 
              $(".left-arrow").click(function(){
             if(counterArray !== 0){
             makeAjax(counterArray--);
+            //renderVideo();//
             }
             });
 
+            */
             onYouTubeIframeAPIReady();
     }
     
